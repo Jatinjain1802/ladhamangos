@@ -28,7 +28,7 @@ npm run preview
 
 This is a reviewable design, not a launched business website. The visible preview banner and noindex tag are intentional.
 
-Images are low-resolution crops from the Instagram screenshots supplied for this project. Replace them with approved original assets before launch. The business description follows the supplied profile: Ratnagiri and Devgad Alphonso mangoes with home delivery across Gulbarga. Prices, availability, quantities, pack sizes and delivery terms still need confirmation. No organic certification, reviews or trust statistics have been invented.
+Images are reference stock photos from Pexels (free to use), hotlinked from their CDN - they are not actual Ladda's product photos. Replace them with approved original assets before launch. Only the logo still comes from the supplied Instagram screenshot. The business description follows the supplied profile: Ratnagiri and Devgad Alphonso mangoes with home delivery across Gulbarga. Prices, availability, quantities, pack sizes and delivery terms still need confirmation. No organic certification, reviews or trust statistics have been invented.
 
 Confirm the final enquiry contact and asset usage permission. Remove review-only text and the noindex tag only after content approval. No public business deployment has been configured.
 
@@ -36,5 +36,5 @@ Confirm the final enquiry contact and asset usage permission. Remove review-only
 
 - `App.tsx`: page copy, sections and enquiry URL
 - `style.css`: responsive styling
-- `root JPEG files`: supplied reference image crops
+- Brand logo embedded in `App.tsx`; other photos are Pexels stock URLs
 - `ui.tsx`: small accessible presentation components
